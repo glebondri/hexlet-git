@@ -1,5 +1,11 @@
-def subtract(*args):
+from sys import argv
+def subtract(args):
     res = 0
     for arg in args:
-	res += arg
+        res += int(arg)
     return res 
+
+
+if __name__ == "__main__":
+    argv.pop(0)
+    print(subtract(argv))
