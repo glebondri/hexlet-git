@@ -1,1 +1,4 @@
+mkdir DIRECTORY
+touch DIRECTORY/subdir
 
+echo 'hex' > DIRECTORY/subdir
